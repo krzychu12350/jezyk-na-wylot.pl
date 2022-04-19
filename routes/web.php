@@ -16,10 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-*/
+
 
 Route::get('/', function () {
     return view('front.index');
+
 });
 
 Route::prefix('admin')->group(function () {
@@ -27,3 +28,13 @@ Route::prefix('admin')->group(function () {
         return view('admin.dashboard');
     });
 });
+
+Route::get('/', function () {
+    return view('app');
+});
+*/
+
+// Route to handle page reload in Vue except for api routes
+Route::get('/{any?}', function () {
+    return view('app');
+})->where('any', '^(?!api\/)[\/\w\.-]*');
