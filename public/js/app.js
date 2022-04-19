@@ -41146,8 +41146,8 @@ __webpack_require__.r(__webpack_exports__);
   /*
   setup() {
       const {posts, getPosts} = usePosts()
-        onMounted(getPosts)
-        return {
+       onMounted(getPosts)
+       return {
           posts,
       }
   },
@@ -41156,7 +41156,7 @@ __webpack_require__.r(__webpack_exports__);
     var _this = this;
 
     //const headers = { "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUwMjM1MTg2LCJleHAiOjE2NTAyMzg3ODYsIm5iZiI6MTY1MDIzNTE4NiwianRpIjoiTDV0SG05MjZ6emhQdkJOeSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Lg1YpUsaxvigIjylNIFCAWIpfRI6612dSSKZ1-Rz39w" };
-    fetch('api/posts/head').then(function (res) {
+    fetch('api/posts/motywacja').then(function (res) {
       return res.json();
     }).then(function (data) {
       return _this.posts = data;
@@ -41558,7 +41558,7 @@ var _hoisted_2 = {
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_NavbarComponent = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("NavbarComponent");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavbarComponent), _hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-xl-6\">\r\n\r\n                <div class=\"card text-center\">\r\n                        <div class=\"card-header\">Featured</div>\r\n                        <div class=\"card-body\">\r\n                            <h5 class=\"card-title\">NASA Launched Solar Probe</h5>\r\n                            <p class=\"card-text\">NASA launched Parker space probe in 2018 with the mission of making observations of the outer corona of the Sun. It is the first-ever mission to \"touch\" the Sun.</p>\r\n                            <a href=\"#\" class=\"btn btn-primary\">Know more</a>\r\n                        </div>\r\n                        <div class=\"card-footer text-muted\">3 years ago</div>\r\n                    </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.posts, function (post) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavbarComponent), _hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xl-6\">\n\n                <div class=\"card text-center\">\n                        <div class=\"card-header\">Featured</div>\n                        <div class=\"card-body\">\n                            <h5 class=\"card-title\">NASA Launched Solar Probe</h5>\n                            <p class=\"card-text\">NASA launched Parker space probe in 2018 with the mission of making observations of the outer corona of the Sun. It is the first-ever mission to \"touch\" the Sun.</p>\n                            <a href=\"#\" class=\"btn btn-primary\">Know more</a>\n                        </div>\n                        <div class=\"card-footer text-muted\">3 years ago</div>\n                    </div>\n            </div>\n        </div>\n    </div>\n    "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.posts, function (post) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("li", {
       key: post.id,
       id: "post.id"

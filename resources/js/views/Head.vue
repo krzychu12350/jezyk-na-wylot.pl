@@ -60,7 +60,7 @@ export default {
    */
     mounted() {
       //const headers = { "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUwMjM1MTg2LCJleHAiOjE2NTAyMzg3ODYsIm5iZiI6MTY1MDIzNTE4NiwianRpIjoiTDV0SG05MjZ6emhQdkJOeSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Lg1YpUsaxvigIjylNIFCAWIpfRI6612dSSKZ1-Rz39w" };
-      fetch('api/posts/head')
+      fetch('api/posts/motywacja')
           .then(res => res.json())
           .then(data => this.posts = data)
           .catch(err => console.log(err.message))
